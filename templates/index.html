@@ -7,10 +7,10 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="description" content="How Many Outs is a poker skill game to improve your ability to quickly identify outs in a poker hand"/>
         <meta property="og:title" content="How Many Outs - A poker skill game"/>
-        <meta property="og:url" content="http://howmanyouts.com"/>
+        <meta property="og:url" content="http://pro.aspiringpokerpro.com/howmanyouts/"/>
         <meta property="og:image" content="{{ url_for('static', filename='img/logo_bg.png', _external='True') }}"/>
         <meta name="medium" content="mult" />
-
+        <meta charset="UTF-8">
 
         <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-1.6.2.min.js') }}" ></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/howmanyouts.js') }}?{{ version }}" ></script>
@@ -22,21 +22,17 @@
         <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
         {% if False == testing %}
-        <script type="text/javascript">
-
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-24995650-4']);
-          _gaq.push(['_setDomainName', 'howmanyouts.com']);
-          _gaq.push(['_trackPageview']);
-
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-
-        </script>
+  
         {% endif %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFSDDPPKB8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QFSDDPPKB8');
+</script>
 
     </head>
 
@@ -165,7 +161,7 @@
                     <div class="game-over-spacer"></div>
                     <h2>Brag on
 
-                    <a href="http://www.facebook.com/sharer.php?u=http://howmanyouts.com/" target="_new" class="link"><img src="{{ url_for('static', filename='img/fb.png') }}" /> Facebook</a>
+                    <a href="http://www.facebook.com/sharer.php?u=http://pro.aspiringpokerpro.com/" target="_new" class="link"><img src="{{ url_for('static', filename='img/fb.png') }}" /> Facebook</a>
 
                     and
 
@@ -225,9 +221,8 @@
 
             <div id="footer">
 
-                <p>Source code available on <a target="_new" class="link" href="https://github.com/seekely/howmanyouts">Github</a>.</p>
-                <p>Created by <a target='_new' class="link" href="http://seekely.com">Ryan Seekely</a>.  Feedback welcome via <a target='_new' class="link" href="mailto:ryan@happykoalas.com">ryan@happykoalas.com</a>.</p>
-                
+                <p><a target="_new" class="link" href="https://aspiringpokerpro.com/">AspiringPokerPro.com</a>.</p>
+
             </div>
 
 
