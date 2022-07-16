@@ -368,7 +368,7 @@ def init_db():
                 db.commit()
 
         except Exception as e:
-           print 'Error creating dataabase: ' + e.strerror
+           print ('Error creating dataabase: ' + e.strerror)
 
 
 '''
