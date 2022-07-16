@@ -2,7 +2,7 @@
 
 How Many Outs is a poker based game to help improve your ability to quickly identify outs in a poker hand. This was my very first time programming in Python, so things would look a bit different if I were to do the project again 😛
 
-You can play the game at http://howmanyouts.com
+You can play the game at http://pro.aspiringpoker.com
 
 You can read more about creating the game at https://seekely.com/funthings/howmanyouts/
 
