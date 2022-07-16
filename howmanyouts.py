@@ -359,7 +359,7 @@ def init_db():
     if not os.path.exists(FILE_DATABASE):
         try:
             
-            print 'Initing database at ' + FILE_DATABASE       
+            print ('Initing database at ' + FILE_DATABASE )      
             
             open(FILE_DATABASE, 'w').close()
             with closing(connect_db()) as db:
